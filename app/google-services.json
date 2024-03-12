@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "700091183396",
+    "project_id": "iesb-android-ii-94ae1",
+    "storage_bucket": "iesb-android-ii-94ae1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700091183396:android:98d49f76f00bf8342983b1",
+        "android_client_info": {
+          "package_name": "com.brunobatista.trabalhoandroid_2_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxg8TCA0xL30RQukIfRBul_0ZDaf14rqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

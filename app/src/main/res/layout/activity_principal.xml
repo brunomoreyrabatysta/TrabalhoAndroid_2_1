@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".PrincipalActivity">
+
+    <TextView
+        android:id="@+id/lblUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Olá, Bruno Moreira Batista"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:drawableTop="@drawable/baseline_person_96"/>
+        <Button
+            android:id="@+id/btnVeiculo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:drawableTop="@drawable/baseline_directions_car_96"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnCliente"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="CLIENTE"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp" />
+        <Button
+            android:id="@+id/btnMotorista"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="MOTORISTA"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnCorrida"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="CORRIDA"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp" />
+        <Button
+            android:id="@+id/btnMapa"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="MAPA"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnConfiguracao"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="CONFIGURAÇÃO"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp" />
+        <Button
+            android:id="@+id/btnSair"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="SAIR"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp" />
+    </LinearLayout>
+</LinearLayout>

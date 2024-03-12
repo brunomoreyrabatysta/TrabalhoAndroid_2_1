@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/mniSair"
+        android:icon="@drawable/baseline_exit_to_app_24"
+        android:title="Sair"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/mniUsuario"
+        android:title="Usuário" />
+    <item android:id="@+id/mniVeiculo"
+        android:title="Veículo" />
+    <item android:id="@+id/mniCliente"
+        android:title="Cliente" />
+    <item android:id="@+id/mniMotorista"
+        android:title="Motorista" />
+    <item android:id="@+id/mniCorrida"
+        android:title="Corrida" />
+    <item android:id="@+id/mniMapa"
+        android:title="Mapa" />
+    <item android:id="@+id/mniConfiguracao"
+        android:title="Configuração" />
+</menu>
